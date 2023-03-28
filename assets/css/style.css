@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.content-L {
+    border-right: 1px solid #000000;
+    text-align: center;
+}
+
+.content-L img {
+    width: 60%;
+}
+
+.content-R {
+    border-left: 1px solid #000000;
+    text-align: center;
+}
+
+.content-R img {
+    width: 60%;
+}
