@@ -1,0 +1,198 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(320deg, #CFE8EF, #AED1E6, #85C7DE);
+    font-family: 'Dosis', sans-serif;
+}
+
+menu {
+    text-align: center;
+    margin: 1em;
+}
+
+menu a {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #505050;
+    border-radius: 100px;
+    padding: 0.3em;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+
+    transition: 0.7s;
+}
+
+menu a:hover {
+    color: #AED1E6;
+    background: #505050;
+}
+
+#container {
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+    display: flex;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    width: 570px;
+    height: 600px;
+    padding: 20px 35px;
+}
+
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.calc-button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button {
+    cursor: pointer;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+    margin: 0.1em;
+}
+
+.calc-button:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #ffffff;
+    background: #505050;
+}
+
+#c {
+    cursor: pointer;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #505050;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #ffffff;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+    margin: 0.1em;
+}
+
+#c:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.especial {
+    cursor: pointer;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #505050;
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #ffffff;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+    margin: 0.1em;
+}
+
+.calc-button:last-child:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.calc-button:hover {
+    background-color: inherit;
+}
+
+.calc-button:active {
+    background-color: #98989898;
+}
+
+#eval,
+#ce {
+    cursor: pointer;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+    margin: 0.1em;
+}
+
+#eval:hover {
+    background-color: inherit;
+}
+
+#ce:hover {
+    background-color: inherit;
+}
+
+footer {
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
